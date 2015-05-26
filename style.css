@@ -1,0 +1,61 @@
+#thread {
+	position : absolute;
+	resize : none;
+	#border: none;
+    overflow: auto;
+    outline: none;
+	
+	white-space: pre-line;
+
+	color : #FFFFFF;
+	background-color : #615F63;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none
+}
+
+#message {
+	position: fixed;
+	top : 620px;
+	resize : none;
+	#border: none;
+    overflow: auto;
+    outline: none;
+
+	color : #FFFFFF;
+	background-color: #615F63;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none
+}
+
+.btn {
+	position : absolute;
+	top : 620px;
+	left : 386px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border : none;
+	outline : none;
+	border-radius: 0px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 21px;
+	background: #b80000;
+	padding: 36px 10px 36px 10px;
+	text-decoration: none;
+}
+
+.btn:hover {
+  background: #d93434;
+  border : none;
+  outline : none;
+  text-decoration: none;
+}
+
+.btn:active {
+	vertical-align : top;
+	border : none;
+	outline : none;
+	padding: 35px 8px 35px 8px;
+}

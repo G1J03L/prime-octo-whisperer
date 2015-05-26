@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>
+		</title>
+		
+		<link rel="stylesheet" href="style.css" async></link>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="http://cloud.github.com/downloads/wycats/handlebars.js/handlebars-1.0.0.beta.6.js" type="text/javascript" charset="utf-8"></script>
+		<script src="app.js" type="text/javascript" charset="utf-8" async></script>
+		<!-- Reminder: Any jQuery/AJAX/etc. done in scripts preloaded in the head MUST be asynchronous -->
+	</head>
+	<body>
+		<textarea id="thread" rows="40" cols="60" readonly></textarea>
+		<textarea id="message" rows="6" cols="50" placeholder="Send a message..." spellcheck autofocus></textarea>
+		<button class="btn" type="submit">Chat</button>
+		
+		<!-- To ensure the JS compiler ignores, type should be customized -->
+		<script id="message-template" type="text/x-handlebars-template"> 
+			<span class="meta">{{date}} - {{uid}} : {{message}}</span>
+		</script>
+	</body>
+</html>
